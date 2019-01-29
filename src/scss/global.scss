@@ -1,0 +1,20 @@
+// View  - layouts, structures
+@import 'View/_page.scss';
+
+
+// Base - configs
+@import 'Base/_pagiConfig.scss';
+@import 'Base/_tableConfig.scss';
+
+
+// Modules - components which can be re-used
+
+// Modules - table modules
+@import 'Modules/Table/tableBlock.scss';
+@import 'Modules/Table/tableHead.scss';
+@import 'Modules/Table/tableBody.scss';
+
+
+// Modules - pagination modules
+@import 'Modules/Pagination/_paginationBlock.scss';
+@import 'Modules/Pagination/_pagination.scss';

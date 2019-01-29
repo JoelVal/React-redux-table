@@ -1,0 +1,35 @@
+// Full table block with parameters that affects most of/whole table
+
+
+.Table--block {
+    margin: $tb-margin;
+    width: 600px;
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+
+.Table--content{
+    color: #C8C8C8;
+    font-size: 13px;
+}
+
+.Table--name{
+    margin: 0px 0px 10px 10px;
+    font-size: 25px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+
+.col__more, .col__more{
+    width: 40px;
+}
+
+
+.td, .th{
+    width: 200px;
+}
+.td{
+    padding: 8px 0px;
+}

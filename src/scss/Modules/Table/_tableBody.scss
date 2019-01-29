@@ -1,0 +1,93 @@
+//Table body style. 
+
+
+.Table--body{
+    background-color: rgba(38, 12, 12, 0.2);
+    border-radius: 15px;
+
+}
+
+
+.Table--body__row{
+    display: flex;
+    font-size: $tb_th_font_size;
+    border-bottom: 1px solid #1c4363; 
+    margin: 8px 20px;
+    align-items: baseline;
+}
+
+.Table--body__row:last-child{
+    border: none;
+    padding-bottom: 15px;
+}
+
+.Tbody--col__left{
+    text-align: left;
+}
+
+
+.Tbody--col__right{
+    text-align: right;  
+    padding-right: 20px;
+}
+
+
+// icons, extra colums
+
+
+.Tbody--col__mid{
+    text-align: center;
+    color: grey;
+    padding-right: 20px;
+}
+
+.Tbody--col__more{
+    align-items: baseline
+}
+
+.Table--col__time{
+    background: url(/images/time.png);
+    width: 18px;
+    height: 18px;
+    margin-right: 3px;
+    background-repeat: no-repeat;
+}
+
+
+.Table--col__home{
+    background: url(/images/Matutd.png);
+    width: 22px;
+    height: 21px;
+    margin-left: 3px;
+    background-repeat: no-repeat;
+}
+
+.Table--col__away{
+    background: url(/images/Everton.png);
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 22px;
+    margin-right: 3px;
+}
+
+.Table--col__location{
+    background: url(/images/Location.png);
+    width: 12px;
+    height: 16px;
+    margin-right: 3px;
+    background-repeat: no-repeat;
+}
+.Tbody--more{
+    text-decoration: none;
+    color: white;
+    background: url(/images/arrowNext.png);
+    width: 11px;
+    height: 12px;
+    display: block;
+
+}
+
+.Table--icon{
+    display: inline-flex;
+    margin: 5px;
+}

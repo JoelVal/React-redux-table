@@ -1,0 +1,48 @@
+// Table header style
+
+.Table--head{
+    color: grey;
+    font-size: 14px;
+}
+.Table--head__row{
+    
+    //font-size: 9px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.THead--col__left{
+    text-align: left;
+}
+
+.THead--col__right{
+    text-align: right;
+}
+
+.THead--col__mid{
+
+    text-align: center;
+}
+
+.THead--col__more{
+    padding: 10px 15px;
+}
+
+.THead--col__time{
+    margin-left: 14px;
+}
+.THead--col__home{
+    padding-right: 30px;
+  
+}
+
+.THead--col__location{
+    padding-right: 30px;
+}
+
+.THead--col__away{
+    width: 160px;
+    margin-left: 30px;
+}

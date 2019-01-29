@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url(/images/background.png);
+  background-repeat: repeat; }
+
+.Table--block {
+  margin: 10px;
+  width: 600px;
+  display: flex;
+  color: white;
+  flex-direction: column; }
+
+.Table--content {
+  color: #C8C8C8;
+  font-size: 13px; }
+
+.Table--name {
+  margin: 0px 0px 10px 10px;
+  font-size: 25px;
+  font-weight: 800;
+  font-style: italic; }
+
+.col__more, .col__more {
+  width: 40px; }
+
+.td, .th {
+  width: 200px; }
+
+.td {
+  padding: 8px 0px; }
+
+.Table--head {
+  color: grey;
+  font-size: 14px; }
+
+.Table--head__row {
+  padding: 5px;
+  display: flex;
+  flex-direction: row; }
+
+.THead--col__left {
+  text-align: left; }
+
+.THead--col__right {
+  text-align: right; }
+
+.THead--col__mid {
+  text-align: center; }
+
+.THead--col__more {
+  padding: 10px 15px; }
+
+.THead--col__time {
+  margin-left: 14px; }
+
+.THead--col__home {
+  padding-right: 30px; }
+
+.THead--col__location {
+  padding-right: 30px; }
+
+.THead--col__away {
+  width: 160px;
+  margin-left: 30px; }
+
+.Table--body {
+  background-color: rgba(38, 12, 12, 0.2);
+  border-radius: 15px; }
+
+.Table--body__row {
+  display: flex;
+  font-size: 13px;
+  border-bottom: 1px solid #1c4363;
+  margin: 8px 20px;
+  align-items: baseline; }
+
+.Table--body__row:last-child {
+  border: none;
+  padding-bottom: 15px; }
+
+.Tbody--col__left {
+  text-align: left; }
+
+.Tbody--col__right {
+  text-align: right;
+  padding-right: 20px; }
+
+.Tbody--col__mid {
+  text-align: center;
+  color: grey;
+  padding-right: 20px; }
+
+.Tbody--col__more {
+  align-items: baseline; }
+
+.Table--col__time {
+  background: url(/images/time.png);
+  width: 18px;
+  height: 18px;
+  margin-right: 3px;
+  background-repeat: no-repeat; }
+
+.Table--col__home {
+  background: url(/images/Matutd.png);
+  width: 22px;
+  height: 21px;
+  margin-left: 3px;
+  background-repeat: no-repeat; }
+
+.Table--col__away {
+  background: url(/images/Everton.png);
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 22px;
+  margin-right: 3px; }
+
+.Table--col__location {
+  background: url(/images/Location.png);
+  width: 12px;
+  height: 16px;
+  margin-right: 3px;
+  background-repeat: no-repeat; }
+
+.Tbody--more {
+  text-decoration: none;
+  color: white;
+  background: url(/images/arrowNext.png);
+  width: 11px;
+  height: 12px;
+  display: block; }
+
+.Table--icon {
+  display: inline-flex;
+  margin: 5px; }
+
+.Pagination {
+  width: 500px;
+  margin: 10px 0px 0px 10px;
+  font-size: 13px;
+  color: grey; }
+
+.Pagination, .Pagination--current, .Pagination--nav {
+  display: flex;
+  align-items: baseline;
+  flex-direction: row; }
+
+.Pagination--number, .Pagination--selectLimit {
+  border: 1px solid #1c4363; }
+
+.Pagination--number {
+  width: 30px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 3px; }
+
+.Pagination--current__all {
+  padding: 5px; }
+
+.Pagination--row_number {
+  padding: 3px;
+  margin: 0px 20px; }
+
+.Pagination--selectLimit {
+  width: 100px;
+  padding: 5px;
+  color: grey;
+  background: none;
+  outline: none;
+  border-radius: 3px; }
+
+.Pagination--nav {
+  margin-left: 9px;
+  margin: 0px 20px; }
+
+.Pagination--next {
+  text-decoration: none;
+  width: 10px;
+  height: 10px;
+  margin: 14px;
+  background: url(/images/arrowPagiRight.png); }
+
+.Pagination--prev {
+  text-decoration: none;
+  margin: 14px;
+  width: 10px;
+  height: 10px;
+  background: url(/images/arrowPagiLeft.png); }

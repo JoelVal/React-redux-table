@@ -1,0 +1,19 @@
+// Parameters that affects most of/whole pagination block
+
+.Pagination {
+    width: 500px;
+    margin: 10px 0px 0px 10px;
+    font-size: 13px;
+    color: grey;
+
+}
+
+.Pagination, .Pagination--current, .Pagination--nav{
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+}
+
+.Pagination--number, .Pagination--selectLimit{
+    border: 1px solid #1c4363;
+}
